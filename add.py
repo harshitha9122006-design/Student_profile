@@ -14,7 +14,7 @@ if st.button('View My Profile'):
      st.warning("Please enter your name and roll number")
 else:
   st.success("Profile Submitted Successfully")
-  st.text_input(f"Name:{name}")
-  st.text_input(f"Roll:{roll}")
-  st.text_input(f"Department:{dept}")
-  st.text_input(f"Year:{year}")
+  st.write(f"Name:{name}")
+  st.write(f"Roll:{roll}")
+  st.write(f"Department:{dept}")
+  st.write(f"Year:{year}")
